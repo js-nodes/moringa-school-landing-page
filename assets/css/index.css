@@ -196,8 +196,10 @@ div.tech-mentor-1{
     font-size: 22px;
 }
 .footer{
+    margin-top: 1200px;
+    margin-bottom: 20px;
     height: 150px;
-    margin-top: 1360px;
+    
     background-color: lightgray;
     
 }
