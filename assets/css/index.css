@@ -7,6 +7,7 @@ body{
     padding: 0;
 }
 
+/* navigation bar */
 .navigation{
     display: flex;
     flex-direction: row;
@@ -26,4 +27,50 @@ body{
     text-decoration: none;
     color: black;
     font-size: 18px;
+}
+
+.navigation .enroll-btn{
+    background: rgb(225, 73, 99);
+    border: none;
+    border-radius: 3px;
+    padding: 5px ;
+}
+
+.navigation .enroll-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+.navigation .enroll-btn:hover{
+    background: #fff;
+    border: 1px solid rgb(225, 73, 99);
+}
+
+.navigation .enroll-btn a:hover{
+    color: rgb(225, 73, 99);
+    font-weight: 700;
+}
+
+/* container */
+.container{
+    margin: 0 300px 0 100px;
+}
+
+.moringa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.moringa .moringa-content{
+    width: 40%;
+}
+
+.moringa img{
+    max-width: 100%;
+    max-height: 100%;
 }
